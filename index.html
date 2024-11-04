@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nullstellenberechnung mit Substitution</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Nullstellenberechnung mit Substitution</h1>
+        <p>Erlerne, wie du Nullstellen mit der Substitutionsmethode berechnest.</p>
+    </header>
+    <main>
+        <section id="concepts">
+            <h2>Was ist Substitution?</h2>
+            <p>Substitution ist eine Methode, um komplexe Gleichungen zu vereinfachen, indem wir Teile der Gleichung durch eine neue Variable ersetzen.</p>
+            <h2>Beispiel</h2>
+            <p>Gegeben ist die Gleichung: <strong>x<sup>4</sup> - 5x<sup>2</sup> + 4 = 0</strong></p>
+            <button id="solveButton">Lösung</button>
+            <div id="result"></div>
+            <button id="stepButton">Starte Schritt-für-Schritt-Anleitung</button> <!-- Button integriert -->
+        </section>
+        <section id="exercise">
+            <h2>Übungsaufgabe</h2>
+            <p>Aufgabe: <strong>x<sup>4</sup> - 10x<sup>2</sup> + 9 = 0</strong></p>
+            <input type="text" id="userInput" placeholder="Gib deine Lösung ein">
+            <button id="checkButton">Überprüfen</button>
+            <div id="checkResult"></div>
+        </section>
+        <section id="steps" style="display: none;">
+            <h2>Schritt-für-Schritt-Anleitung</h2>
+            <div id="stepContent"></div>
+            <button id="nextButton">Weiter</button>
+            <div id="previousSteps"></div>
+            <button id="backButton" style="display: none;">Zurück zur Hauptseite</button>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Mathe Jan Digital</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
